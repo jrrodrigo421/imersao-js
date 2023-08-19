@@ -7,7 +7,7 @@ function Pessoa() {
 }
 // new Pessoa
 
-// Exemplo do msn mozila: 
+// Exemplo do mdn mozila: 
 const materials = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium'];
 
 // console.log(materials.map((teste) => teste.length));
