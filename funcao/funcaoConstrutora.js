@@ -25,3 +25,15 @@ punto.acelerar()
 punto.acelerar()
 punto.acelerar()
 console.log(punto.getVelocidadeAtual());
+
+const pulse = new Carro(300, 30);
+pulse.acelerar()
+console.log(pulse.getVelocidadeAtual());
+
+pulse.acelerar()
+pulse.acelerar()
+pulse.acelerar()
+pulse.acelerar()
+pulse.acelerar()
+
+console.log(pulse.getVelocidadeAtual())
