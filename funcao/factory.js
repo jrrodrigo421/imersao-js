@@ -31,6 +31,11 @@ function criaPessoaSimples(nome, sobrenome, idade) {
 
 function listarPessoa() {
   console.log(criaPessoaSimples('Rodriguinho', 'Lopes JR', 30));
+  console.log(criaPessoaSimples('Rodrigo', 'Lopes', 50));
+  console.log(criaPessoaSimples('Adriana', 'Lopes', 50));
+  console.log(criaPessoaSimples('Gleice', 'Lopes', 25));
 }
 
 listarPessoa()
+console.log(criaPessoaSimples('teste', 'teste', 300).idade);
+console.log(criarPessoa().skills)
