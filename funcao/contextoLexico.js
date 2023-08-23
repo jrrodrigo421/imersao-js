@@ -10,4 +10,4 @@ function exec() {
   console.log('IMPRIMINDO valor de dentro de exec()', valor);
 }
 
-exec()
+exec()  
