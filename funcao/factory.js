@@ -33,5 +33,4 @@ function listarPessoa() {
   console.log(criaPessoaSimples('Rodriguinho', 'Lopes JR', 30));
 }
 
-
 listarPessoa()
