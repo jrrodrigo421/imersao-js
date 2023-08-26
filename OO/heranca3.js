@@ -3,6 +3,12 @@ const pai = { nome: 'Rodrigo', corDoCabelo: 'Preto' }
 const filho1 = Object.create(pai)
 filho1.nome = 'RodrigoJr'
 
+quemEOProto = Object.getPrototypeOf(filho1)
+console.log('############################');
+console.log(`\n\nO proto de filho1 é ${quemEOProto}\n\n`);
+console.log('O proto de filho1 é ', quemEOProto);
+console.log('############################');
+
 console.log(filho1.corDoCabelo);
 
 console.log(filho1);
