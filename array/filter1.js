@@ -1,4 +1,3 @@
-const { Long } = require("typeorm");
 
 const produtos = [
   { nome: 'Notebook', preco: 2500.00, fragil: true },
